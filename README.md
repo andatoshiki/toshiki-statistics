@@ -33,3 +33,11 @@
 >   - what is $P\{w\}$, where $w=0.34877\ldots$, $P\{w\}=0$, since **there are unaccountably many indefinitely many elements in this sample space, the probability of this one is $0$.**
 > - if $E=(0.2,0.8)$, what is $P(E)$?
 >   - Since this is a continuous example, between the interval $(0.2,0.8)$ will have infinitely many solutions, where the probability will be calculated by $P(E)=\dfrac{|E|}{|\Omega|}=\dfrac{}{}$
+
+$$
+\begin{aligned}
+&\iint_{S} P \mathbf{i} \cdot \mathbf{n} d S=\iiint_{E} \frac{\partial P}{\partial x} d V \\
+&\iint_{S} Q \mathbf{j} \cdot \mathbf{n} d S=\iiint_{E} \frac{\partial Q}{\partial y} d V \\
+&\iint_{S} R \mathbf{k} \cdot \mathbf{n} d S=\iiint_{E} \frac{\partial R}{\partial z} d V
+\end{aligned}
+$$
