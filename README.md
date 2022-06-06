@@ -24,7 +24,7 @@
 > 
 > **Extension**: $E=\{ (i , j): i+j=7 \}$, what's the probability of this event.
 > - $P(E)=\dfrac{|E|}{|\Omega|}=\dfrac{6}{36}=\dfrac{1}{6}$, this is true if the dices are **fair** and independent.
->   - The $\red{|}\ldots\red{|}$ the bars marked in red in this scenario means the **total number inside the event $E$**.
+>   - The $\color{red}{|}\ldots\color{red}{|}$ the bars marked in red in this scenario means the **total number inside the event $E$**.
 - Discrete: The number of outcomes in the sample space is finitely many, and infinitely many. (Basically **countable**, where we can count)
 
 > **Example 2 (continuous)**: Throw a dart on to the interval $[0,1]$ and we observe the point of impact.
@@ -33,4 +33,3 @@
 >   - what is $P\{w\}$, where $w=0.34877\ldots$, $P\{w\}=0$, since **there are unaccountably many indefinitely many elements in this sample space, the probability of this one is $0$.**
 > - if $E=(0.2,0.8)$, what is $P(E)$?
 >   - Since this is a continuous example, between the interval $(0.2,0.8)$ will have infinitely many solutions, where the probability will be calculated by $P(E)=\dfrac{|E|}{|\Omega|}=\dfrac{}{}$
-> 
