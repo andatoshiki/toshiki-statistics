@@ -100,9 +100,36 @@ $$
 
 ### 1-5-Independence
 
-if $E$ and $F$ are independent, then,
+If $E$ and $F$ are independent, then,
 
 $$P(E \cap F)=P(E) \cdot P(F)
 $$
 
-> **Example 4**
+> **Example 4**: Two events are presented by $E\&F$, represented in the diagram follow, are they independent?
+> - ![example 4](assets/example4.excalidraw.png)
+> 
+> The answer is **not necessarily indeed**, if the intersection of the two event is empty or zero, the event is not independent.
+> - $E \cap E=\phi \Rightarrow P(E \cap F)=P(\phi)=0$, conclude that $P(E)\cdot P(F)$ is not necessarily independent.
+
+### 1-6-Conditional Probabilities
+
+- The conditional probability is conditional probability is a measure of the probability of an event occurring, given that another event has already occurred, also defined mathematically as follow,
+  - $P(E|F)$ indicates $E$ is **given by $F$**.
+
+$$
+P(E \mid F)= \begin{cases}P(E \cup F) & \text { if } \quad P(F)>0 \\ \text { undefined } & \text { if } \quad P(F)=0\end{cases}
+$$
+
+
+> **Example 5**: Suppose we know that event $F$ has occurred $(w \in E)$ as represented in the following diagram,
+> - ![example 5](assets/example5.excalidraw.png)
+> 
+> Then the event $E$ **can only occur** if $\omega \in E \cap F$, as represented in the diagram follow,
+> - ![example 5 explained](assets/example5_explain.excalidraw.png)
+
+- If $0 \leq P(E|F) \leq 1$, then it satisfy the following,
+
+$$
+\operatorname{P}\left(\bigcup_{i} E_{i} \mid F\right)=\sum_{i} P(E_{i} \mid F)
+$$
+
