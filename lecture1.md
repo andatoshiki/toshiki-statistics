@@ -133,3 +133,19 @@ $$
 \operatorname{P}\left(\bigcup_{i} E_{i} \mid F\right)=\sum_{i} P(E_{i} \mid F)
 $$
 
+> **Example 7**: What is the statement opposite to "nothing happens"?
+> 
+> The answer is "something happens".
+
+- Nothing happens: $\bigcap_{i}E_{i}^{c}$
+- Nothing is true (opposite): $\left(\bigcap_{i} E_{i}^{c}\right)^{c}=\bigcup_{i}\left(E_{i}^{c}\right)^{c}=\bigcup_{i} E_{i}$
+  - $\bigcap_{i}$ indicates "at least".
+  - $\bigcap_{i}$ indicates "all of it".
+  - $\bigcup_{i}$ indicates "some of it".
+  - $\bigcap_{i} E_{i}$ indicates "everything happens".
+
+> **Example 7**: Blood test is 95% effective if a person has a disease
+> - A false positive occurs with probability 1%
+> 
+> Then what is the probability that a person has the disease given that the test is positive?
+> 
